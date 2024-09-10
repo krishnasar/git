@@ -1,0 +1,5 @@
+The main branch stores the official release history, and the develop branch serves as an integration branch for features.
+It's also convenient to tag all commits in the main branch with a version number.
+Feature branches are created off the develop branch and merged back into it when complete. 
+Release branches are created off the develop branch for final testing before merging into master for production.
+Hotfix branches are created off the master branch to address critical production issues.
